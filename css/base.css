@@ -162,30 +162,28 @@
   background-color: var(--color-white);
 }
 
-.navbar-left img {
-  height: 50px;
-}
-
+/* Shared style for both left and right nav link groups */
 .navbar-right {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-.navbar-right a {
+.navbar-right a,
+.navbar-center a {
   text-decoration: none;
   color: var(--color-black);
   font-size: 1.1rem;
 }
 
 .navbar-right a:hover {
-  background-color: var(--color-rose);
-  color: var(--color-white);
-  padding: 5px 5px;
+  /* color: var(--color-white); */
+  text-decoration: underline;
 }
 
-.navbar-left img {
-  height: 80px; /* or whatever size you want */
+/* Logo in center */
+.navbar-center img {
+  height: 150px;
   width: auto;
 }
 
