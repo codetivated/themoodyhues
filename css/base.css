@@ -1,0 +1,251 @@
+
+
+:root {
+  --color-white: #fff;
+  --color-black: #181713;
+
+  /* Neutrals */
+  --color-obsidian: #0D0D0D;
+  --color-charcoal: #1E1E1E;
+  --color-ash: #B2B2B2;
+  --color-ivory: #F5F5F5;
+
+  /* Cinematic Accents */
+  --color-gold: #C2A86D;
+  --color-rose: #A26A69;
+  --color-forest: #2C3A36;
+  --color-cobalt: #3B4C65;
+
+  /* Overlays / Filters */
+  --color-sepia: #7E6651;
+  --color-steel-teal: #5A6F73;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.noto-serif-<uniquifier> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+  h1, h2, h3 {
+    font-family: 'Noto Serif TC', serif;
+  }
+
+  body, p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  }
+
+/* NAVBAR */
+#navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  border-bottom: 1px solid;
+  background-color: var(--color-white);
+}
+
+.navbar-left img {
+  height: 50px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: var(--color-black);
+  font-size: 1.1rem;
+}
+
+.navbar-right a:hover {
+  background-color: var(--color-rose);
+  color: var(--color-white);
+  padding: 5px 5px;
+}
+
+.navbar-left img {
+  height: 80px; /* or whatever size you want */
+  width: auto;
+}
+
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: ;
+}
+
+/* Footer links */
+.links {
+  display: flex;
+  gap: 4rem;
+  padding-right: 2rem;
+}
+
+.links div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.links p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: var(--color-black);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.footer-credit {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--color-black);
+}
